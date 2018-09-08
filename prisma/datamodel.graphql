@@ -1,0 +1,40 @@
+type User {
+  id: ID! @unique
+  name: String!
+}
+
+type Contact {
+  id: ID! @unique
+  name: String!
+  company: String!
+  contactNo: String!
+  email: String!
+  altContactNo: String
+  designation: String
+  building: String
+  lane: String
+  area: String
+  city: String!
+  state: String!
+  country: String!
+}
+
+type CalcSetting {
+  id: ID! @unique
+  sunHours: String!
+  freeMaintYrs: String!
+  debtTenure: String!
+  debtRate: String!
+  elecInflation: String!
+  effRed1: String!
+  effRed: String!
+  depPercent: String!
+  depAcclPercent1: String!
+  depAcclPercent2: String!
+  depAcclPercent3: String!
+  depAcclPercent4: String!
+  taxPercent: String!
+  subsidyPercent: String!
+  fbElecRate: String!
+  CO2factor: String!
+}

@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+}
+
+.App-intro {
+  text-align: center;
+  flex: 1;
+}
